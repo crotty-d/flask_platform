@@ -22,15 +22,18 @@ Small Flask application to display system platform (OS) in browser.
 * Free software: MIT license
 
 
-Instructions
---------
+How to use
+----------
 
-* pip install systeminfo module from https://github.com/crotty-d/systeminfo
-* pip install flaskplatform module from https://github.com/crotty-d/flask_platform
-* Open terminal and enter: export FLASK_APP=run.py
-* Then enter: run.py
-* The flask server should start
-* Open browser and enter localhost:5000 in the address bar to see system information
+* pip install the systeminfo module from https://github.com/crotty-d/systeminfo.
+* Clone the *flask_platform* repository from https://github.com/crotty-d/flask_platform.
+* Open a terminal.
+* Navigate (cd) to wherever you cloned *flask_platform*, and from there to *flaskplatform*.
+* Enter: **export FLASK_APP=run.py**, followed by **flask run**
+* OR simply enter: **python run.py**
+* The flask server should start.
+* Open a web browser and enter localhost:5000 in the address bar to see system information
+
 
 Credits
 -------
