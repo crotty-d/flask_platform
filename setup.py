@@ -13,7 +13,6 @@ with open('HISTORY.rst') as history_file:
 
 requirements = [
     'flask',
-    'systeminfo'
 ]
 
 setup_requirements = [
@@ -35,7 +34,7 @@ setup(
     packages=find_packages(),
     entry_points={
         'console_scripts': [
-            'flaskplatform=flaskplatform.run:main',
+            'flask_platform=flaskplatform.run:main',
         ],
     },
     include_package_data=True,
