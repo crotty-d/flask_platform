@@ -12,7 +12,7 @@ with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
 requirements = [
-    'flask',
+    'flask'
 ]
 
 setup_requirements = [

@@ -1,0 +1,2 @@
+flask>=0.12
+[-e] git+https://github.com/crotty-d/systeminfo#egg=systeminfo
