@@ -12,24 +12,22 @@ with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
 requirements = [
-    'Click>=6.0',
-    # TODO: Put package requirements here
+    'flask',
+    'systeminfo'
 ]
 
 setup_requirements = [
     'pytest-runner',
-    # TODO(crotty-d ): Put setup requirements (distutils extensions, etc.) here
 ]
 
 test_requirements = [
     'pytest',
-    # TODO: Put package test requirements here
 ]
 
 setup(
     name='flaskplatform',
     version='0.1.0',
-    description="Minimal flask platform",
+    description="Flask application to display system platform (OS) in browser",
     long_description=readme + '\n\n' + history,
     author="Darragh Crotty",
     author_email='darragh@darraghcrotty.com',
