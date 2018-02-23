@@ -4,8 +4,6 @@
 """The setup script."""
 
 from setuptools import setup, find_packages
-import flaskplatform
-from flaskplatform import application
 
 with open('README.rst') as readme_file:
     readme = readme_file.read()
@@ -33,7 +31,7 @@ setup(
     author="Darragh Crotty",
     author_email='darragh@darraghcrotty.com',
     url='https://github.com/crotty-d/flask_platform',
-    packages=[flaskplatform, application],
+    packages=find_packages(),
     entry_points={
         'console_scripts': [
             'flaskplatform=flaskplatform.run:main',
