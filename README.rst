@@ -28,7 +28,7 @@ How to use
 * pip install the systeminfo module from https://github.com/crotty-d/systeminfo.
 * Clone the *flask_platform* repository from https://github.com/crotty-d/flask_platform.
 * Open a terminal.
-* Navigate (cd) to wherever you cloned *flask_platform*, and from there to *flaskplatform*.
+* Navigate (cd) to wherever you cloned *flask_platform*, and from there to the *flaskplatform* directory.
 * Enter: **export FLASK_APP=run.py**, followed by **flask run**
 * OR simply enter: **python run.py**
 * The flask server should start.
