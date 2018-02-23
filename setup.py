@@ -27,24 +27,24 @@ test_requirements = [
 ]
 
 setup(
-    name='flask_platform',
+    name='flaskplatform',
     version='0.1.0',
     description="Minimal flask platform",
     long_description=readme + '\n\n' + history,
     author="Darragh Crotty",
     author_email='darragh@darraghcrotty.com',
-    url='https://github.com/crotty-d/flask_platform',
+    url='https://github.com/crotty-d/flaskplatform',
     packages=find_packages(),
     entry_points={
         'console_scripts': [
-            'flask_platform=flask_platform.run:main',
+            'flaskplatform=flaskplatform.run:main',
         ],
     },
     include_package_data=True,
     install_requires=requirements,
     license="MIT license",
     zip_safe=False,
-    keywords='flask_platform',
+    keywords='flaskplatform',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',
