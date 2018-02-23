@@ -34,7 +34,7 @@ setup(
     packages=find_packages(),
     entry_points={
         'console_scripts': [
-            'flask_platform=flaskplatform.run:main',
+            'flaskplatform=flaskplatform.run:main',
         ],
     },
     include_package_data=True,
