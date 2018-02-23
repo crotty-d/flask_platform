@@ -25,7 +25,7 @@ test_requirements = [
 ]
 
 setup(
-    name='flask_platform',
+    name='flaskplatform',
     version='0.1.0',
     description="Flask application to display system platform (OS) in browser",
     long_description=readme + '\n\n' + history,
@@ -42,7 +42,7 @@ setup(
     install_requires=requirements,
     license="MIT license",
     zip_safe=False,
-    keywords='flask_platform',
+    keywords='flaskplatform',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',
