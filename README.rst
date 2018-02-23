@@ -16,17 +16,21 @@ flask_platform
 
 
 
-Minimal flask platform
+Small Flask application to display system platform (OS) in browser.
 
 
 * Free software: MIT license
-* Documentation: https://flask-platform.readthedocs.io.
 
 
-Features
+Instructions
 --------
 
-* TODO
+* pip install systeminfo module from https://github.com/crotty-d/systeminfo
+* pip install flaskplatform module from https://github.com/crotty-d/flask_platform
+* Open terminal and enter: export FLASK_APP=run.py
+* Then enter: run.py
+* The flask server should start
+* Open browser and enter localhost:5000 in the address bar to see system information
 
 Credits
 -------
