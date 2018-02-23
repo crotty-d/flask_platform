@@ -34,7 +34,7 @@ setup(
     author="Darragh Crotty",
     author_email='darragh@darraghcrotty.com',
     url='https://github.com/crotty-d/flask_platform',
-    packages=['flask_platform'],
+    packages=find_packages(),
     entry_points={
         'console_scripts': [
             'flask_platform=flask_platform.run:main',
