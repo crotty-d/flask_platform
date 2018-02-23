@@ -25,13 +25,13 @@ test_requirements = [
 ]
 
 setup(
-    name='flaskplatform',
+    name='flask_platform',
     version='0.1.0',
     description="Flask application to display system platform (OS) in browser",
     long_description=readme + '\n\n' + history,
     author="Darragh Crotty",
     author_email='darragh@darraghcrotty.com',
-    url='https://github.com/crotty-d/flaskplatform',
+    url='https://github.com/crotty-d/flask_platform',
     packages=find_packages(),
     entry_points={
         'console_scripts': [
@@ -42,7 +42,7 @@ setup(
     install_requires=requirements,
     license="MIT license",
     zip_safe=False,
-    keywords='flaskplatform',
+    keywords='flask_platform',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',
